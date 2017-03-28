@@ -2,13 +2,13 @@
 # Readme for shared repository during software design course
 
 ## Admin:
-- Axel Gehlin Björnberg
+- Axel
 
 ## Other members:
-- Carl Sandnes
-- Emil Nero
-- Shaya Radh
-- Peter Eriksson
+- Carl
+- Emil
+- Shaya
+- Peter
 
 ## Project 1; Nethack
 - Dungeon crawler
