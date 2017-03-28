@@ -1,8 +1,7 @@
- 
 # Readme for shared repository during software design course
 
 ## Admin:
-- Axel
+- Axel //also known as Glass
 
 ## Other members:
 - Carl
