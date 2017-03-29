@@ -5,13 +5,13 @@
 <incert date here>
 
 ### Authors: 
-Name	|	Social Security Number | Thinking | Writing |
-------|------------------------|----------|---------|
-Axel  | XXXXXXXX-XXXX					 | 100%			|	100%		|
-Carl	|	XXXXXXXX-XXXX					 | XX%			|	XX%			|
-Emil	|	XXXXXXXX-XXXX					 | XX%			|	XX%			|
-Shaya	| XXXXXXXX-XXXX					 | XX%			|	XX%			|
-Peter	|	XXXXXXXX-XXXX					 | XX%			|	XX%			|
+Name	| Social Security Number | Thinking | Writing |
+--------|------------------------|----------|---------|
+Axel    | XXXXXXXX-XXXX	         | 100%     | 100%    |
+Carl    | XXXXXXXX-XXXX	         | XX%      | XX%     |
+Emil    | XXXXXXXX-XXXX	         | XX%      | XX%     |
+Shaya   | XXXXXXXX-XXXX	         | XX%      | XX%     |
+Peter   | XXXXXXXX-XXXX	         | XX%      | XX%     |
 
 //don't put in social number yet
 
