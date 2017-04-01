@@ -25,14 +25,14 @@ and see the in-game world change as the twitter feed does.
 
 ### Use Cases:
 The game is supposed to be able to:
-- Logg in the user
-	- The user shall be able to logg in and access a game session provided that the user knows the right password.
-- Logg out the user
-	- The system shall be able to logg out (exit) when the user does not wish to play the game anymore.
+- Log in the user
+	- The user shall be able to log in and access a game session provided that the user knows the right password.
+- Log out the user
+	- The system shall be able to log out (exit) when the user does not wish to play the game anymore.
 - Save current play session
 	- If the user wants to, the system shall be able to save(copy and place the copy somewhere) the current play session.
 - Load a previous play session
-	- If the user has played before and saved a game session, the usert shall be able to continue where he/she left if so is desired.
+	- If the user has played before and saved a game session, the user shall be able to continue where he/she left if so is desired.
 - Get data from twitter feed
 	- The system shall be able to collect data from the database of the communication service called twitter.
 - Generate dungeon rooms
