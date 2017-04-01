@@ -13,9 +13,10 @@
 Create an initial list of use cases for your system. Briefly describe them(1-2 sentences each)
 
 The assignment shall contain the following:
-1. Title page []
-2. System Description []
-3. Use cases list []
+1. Title page [ ]
+2. System Description [ ]
+3. Use cases list [ ]
 
-## Project 2;
-## Project 3;
+## Project 2; User Stories and Use Cases
+## Project 3; Object Oriented Design
+## Project 4; Implementation and Testing
