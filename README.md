@@ -1,13 +1,13 @@
 # Readme for shared repository during software design course
 
 ## Admin:
-- Axel //also known as Glass
+- Axel - IT-säkerhet //also known as Glass
 
 ## Other members:
-- Carl
-- Emil
-- Shaya
-- Peter
+- Carl - IT-säkerhet
+- Emil - xxxxxxx
+- Shaya - IT-säkerhet
+- Peter - xxxxxxx
 
 ## Project 1; 3 Week Roll Call: List of Use Cases
 Create an initial list of use cases for your system. Briefly describe them(1-2 sentences each)
