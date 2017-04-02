@@ -2,7 +2,7 @@
 
 ## Assignment in the course PA1415 Programvarudesign  
 
-<incert date here>
+#### Date: 2017-04-07
 
 ### Authors:
 Name    | Social Security Number | Thinking | Writing |
@@ -40,4 +40,3 @@ The game is supposed to be able to:
 - Customize player
 
 //must be  5-15 use cases listed   
-<incert a list of use cases for your system, with a brief description for each>
