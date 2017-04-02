@@ -2,7 +2,7 @@
 
 ## Assignment in the course PA1415 Programvarudesign  
 
-#### Date: 2017-04-07
+#### 2017-04-07
 
 ### Authors:
 Name    | Social Security Number | Thinking | Writing |
