@@ -1,8 +1,9 @@
 # User stories and use cases
 
 ```
-**playerLogin**  
-As a player, I want my own account so I can access my own previous progress. So that I won't have to start over again everytime I play.
+*playerLogin*  
+As a player, I want my own account so I can access my own previous progress.  
+So that I won't have to start over again everytime I play.
 ```
 ```
 **playerLogout**  
