@@ -42,7 +42,7 @@ So that I may stand out in the crowd.
 ```
 ```
 generateDungeonWithTwitter:
-As a player, I want to be able to randomly generate a dungeon using keywords selected from a certain twitter feed, 
+As a player, I want to be able to randomly generate a dungeon using keywords selected from a certain twitter feed,  
 as an interesting way of creating levels.
 ```
 ```
@@ -62,6 +62,6 @@ so that I may play along and communicate with other players.
 ```
 ```
 chatWithOtherPlayers:
-As a player, I want the ability to communicate other players in my online game session through text in a chatroom, 
+As a player, I want the ability to communicate other players in my online game session through text in a chatroom,  
 so that we may strategize and socialize.
 ```
