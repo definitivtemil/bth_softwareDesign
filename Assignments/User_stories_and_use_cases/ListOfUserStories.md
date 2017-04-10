@@ -1,8 +1,9 @@
 # User stories and use cases
 
+#### User stories:
 ```
-playerLogin:  
-As a player, I want my own account so I can access my own previous progress.  
+Use story: playerLogin  
+As a player, I want the ability to access my own account so I can access my own previous progress.  
 So that I won't have to start over again everytime I play.
 ```
 ```

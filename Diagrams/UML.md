@@ -3,6 +3,7 @@
 actor Player
 Player --> Login: credentials
 Login --> System: authentication request
+actor database
 System --> database : gather required 
 System --> Login: authentication response
 Login --> Player: response
@@ -10,20 +11,25 @@ Login --> Player: response
 
 ## Connecting to server
 ```@plantuml
-actor Player
+actor player
 player --> system : presses connect button
+actor server
 system --> server : connection request
 server --> system : connection response
+system --> player :  
 ```
 
 ## Relations:
 ```@plantuml
-:enter credentials:
-if(correct) then (yes)
-	:login:
+start
+
+if(correctinput?) then (yes)
+-	allow
 else (no)
-	:enter again:
-::
+-	deny
+endif
+
+stop
 ```
 
 ```@plantuml
