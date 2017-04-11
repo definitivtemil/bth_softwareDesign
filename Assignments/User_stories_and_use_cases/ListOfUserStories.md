@@ -187,10 +187,10 @@ With this order of priority we will create a functional product as soon as possi
 **Prioritisation plan**:  
 points | name of usecase                  |
 -------|----------------------------------|
-10	    | selfUpdatingWindow               |
+10     | selfUpdatingWindow               |
 17     | generateDungeonWithoutTwitter    |
 6      | movePlayer                       |
-5 	    | pickupItem                       |
+5      | pickupItem                       |
 6      | playerAttack                     |
 4      | throwItem                        |
 4      | save game                        |
@@ -204,10 +204,25 @@ points | name of usecase                  |
 3      | customisePlayer                  |
 
 ##### testing 
-Name                    | Social Security Number | Thinking | Writing |
-------------------------|------------------------|----------|---------|
-Axel Gehlin Björnberg   |  x	                   | 20%      | 50%     |
-Carl Sandnes            |  x                     | 20%      | 20%     |
-Emil Nero               |  x                     | 20%      | 30%     |
-Shaghayegh Pourmahdi    |  x	                   | 20%      | 00%     |
-Peter Eriksson          |  x	                   | 20%      | 00%     |
+Name                    | Social Security Number |
+------------------------|------------------------|
+Axel Gehlin Björnberg   |  x	                    |
+Carl Sandnes            |  x                     |
+Emil Nero               |  x                     |
+Shaghayegh Pourmahdi    |  x	                    |
+Peter Eriksson          |  x	                    |
+10                      | selfUpdatingWindow               |
+17                      | generateDungeonWithoutTwitter    |
+6                       | movePlayer                       |
+5                       | pickupItem                       |
+6                       | playerAttack                     |
+4                       | throwItem                        |
+4                       | save game                        |
+4                       | load game                        |
+1                       | player Login                     |
+1                       | Player logout                    |
+8                       | connectToMultiplayerSession      |
+2                       | Chat with multiplayer session    |
+6                       | disconnectFromMultiplayerSession |
+20                      | generateDungeonWithTwitter       |
+3                       | customisePlayer                  |
