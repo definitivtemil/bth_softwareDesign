@@ -12,11 +12,6 @@ As a player, I want to be able to save my current session,
 so I may go back to it at another time and continue where I left off. 
 ```
 ```
-loadGame:  
-As a player, I want the option of loading a saved game,  
-so I may continue where I left off in a previous session.
-```
-```
 movePlayer:
 As a player, I want to be able to move my character around in dungeons,  
 so that I can explore them.
