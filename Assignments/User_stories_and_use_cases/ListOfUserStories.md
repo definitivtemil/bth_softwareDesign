@@ -202,3 +202,12 @@ points | name of usecase                  |
 6      | disconnectFromMultiplayerSession |
 20     | generateDungeonWithTwitter       |
 3      | customisePlayer                  |
+
+##### testing 
+Name                    | Social Security Number | Thinking | Writing |
+------------------------|------------------------|----------|---------|
+Axel Gehlin Björnberg   |  x	                   | 20%      | 50%     |
+Carl Sandnes            |  x                     | 20%      | 20%     |
+Emil Nero               |  x                     | 20%      | 30%     |
+Shaghayegh Pourmahdi    |  x	                   | 20%      | 00%     |
+Peter Eriksson          |  x	                   | 20%      | 00%     |
