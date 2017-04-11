@@ -185,6 +185,7 @@ so that we may strategize and socialize.
 With this order of priority we will create a functional product as soon as possible, we will then be able to test the other functions in the game directly, saving time and effort. And would also, if we had any, be able to beta test the program with the users and get feedback.
  
 **Prioritisation plan**:  
+
 Points                  | name of use cases                |
 ------------------------|----------------------------------|
 10                      | selfUpdatingWindow               |
