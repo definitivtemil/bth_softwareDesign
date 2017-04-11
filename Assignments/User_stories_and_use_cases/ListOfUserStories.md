@@ -170,3 +170,49 @@ User story: chatWithOtherPlayers:
 As a player, I want the ability to communicate other players in my online game session through text in a chatroom,  
 so that we may strategize and socialize.
 ```
+
+#### Estimated velocity per iteration
+25 points/week average
+10 points/week minimum
+35 points/week maximum
+
+80 points Minimum total
+100 points average total
+120 points maximum total
+
+#### Implementation plan
+**Motivation**:
+With this order of priority we will create a functional product as soon as possible, we will then be able to test the other functions in the game directly, saving time and effort. And would also, if we had any, be able to beta test the program with the users and get feedback.
+
+#### Plan
+points	name of usecase
+
+10	selfUpdatingWindow
+
+17 generateDungeonWithoutTwitter
+
+6	movePlayer
+
+5	pickupItem
+
+6	playerAttack
+
+4	throwItem
+
+4	save game
+
+4	load game
+
+1	player Login
+
+1	Player logout
+
+8	connectToMultiplayerSession
+
+2	Chat with multiplayer session
+
+6 DisconnectFromMultiplayerSession
+
+20 generateDungeonWithTwitter
+
+3	customisePlayer
