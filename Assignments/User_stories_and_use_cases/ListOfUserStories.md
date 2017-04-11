@@ -42,14 +42,8 @@ As a player, I want the abilty to change the apperance of my personal character.
 So that I may stand out in the crowd.
 ```
 ```
-generateDungeonWithTwitter:
-As a player, I want to be able to randomly generate a dungeon using keywords selected from a certain twitter feed,  
-as an interesting way of creating levels.
-```
-```
-generateDungeonWithoutTwitter:
-As a player, I want an option to generate a new game session when there is no internet connection,  
-using a set offline-available algorithm.
+newWorld:
+As a player, I want to be able to randomly generate a dungeon using both keywords selected from a certain twitter feed and using a set offline-available algorithm, so that I have a world to move in.
 ```
 ```
 throwItem:
