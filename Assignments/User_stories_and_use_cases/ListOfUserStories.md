@@ -185,20 +185,20 @@ so that we may strategize and socialize.
 With this order of priority we will create a functional product as soon as possible, we will then be able to test the other functions in the game directly, saving time and effort. And would also, if we had any, be able to beta test the program with the users and get feedback.
  
 **Prioritisation plan**:  
-points | name of usecase |
--------|----------------|
-10	    | selfUpdatingWindow |
-17     | generateDungeonWithoutTwitter |
-6      | movePlayer |
-5 	    | pickupItem |
-6      | playerAttack |
-4      | throwItem |
-4      | save game |
-4      | load game |
-1      | player Login |
-1      | Player logout |
-8      | connectToMultiplayerSession |
-2      | Chat with multiplayer session |
+points | name of usecase                  |
+-------|----------------------------------|
+10	    | selfUpdatingWindow               |
+17     | generateDungeonWithoutTwitter    |
+6      | movePlayer                       |
+5 	    | pickupItem                       |
+6      | playerAttack                     |
+4      | throwItem                        |
+4      | save game                        |
+4      | load game                        |
+1      | player Login                     |
+1      | Player logout                    |
+8      | connectToMultiplayerSession      |
+2      | Chat with multiplayer session    |
 6      | disconnectFromMultiplayerSession |
-20     | generateDungeonWithTwitter |
-3      | customisePlayer |
+20     | generateDungeonWithTwitter       |
+3      | customisePlayer                  |
