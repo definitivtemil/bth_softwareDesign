@@ -1,1 +1,1 @@
-[bild](bild.png)
+(bild.png)
