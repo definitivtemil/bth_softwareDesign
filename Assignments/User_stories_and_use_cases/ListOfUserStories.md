@@ -7,11 +7,6 @@ As a player, I want the ability to access my own account so I can access my own 
 So that I won't have to start over again everytime I play.
 ```
 ```
-playerLogout:  
-As a player, I want the option to log out,  
-so that my play session is not altered when I'm not present. 
-```
-```
 saveGame:  
 As a player, I want to be able to save my current session,  
 so I may go back to it at another time and continue where I left off. 
