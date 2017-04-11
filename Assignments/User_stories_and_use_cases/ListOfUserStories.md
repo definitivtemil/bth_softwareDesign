@@ -57,7 +57,7 @@ As a player, I want the option to throw something within my inventory,
 as either an offensive action or as a means to discard something from my inventory. 
 ```
 ```
-connectToMultiplayerSession:  
+MultiplayerSession:  
 As a player, I want the option of connecting to an online session, 
 so that I may play along and communicate with other players. 
 ```
