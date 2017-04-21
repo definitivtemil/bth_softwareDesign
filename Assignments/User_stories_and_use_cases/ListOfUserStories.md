@@ -46,6 +46,8 @@ Therefore, we have chosen to prioritise the parts which other parts of the syste
 ```
 Epic: Accessing game sessions
 
+Actors:
+
 Description:
 When the player starts the game, a login screen pops up and requires the player to input his/her credentials.
 The system then checks these credentials and allows the player access to the players previous game sessions
