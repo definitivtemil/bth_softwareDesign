@@ -94,84 +94,59 @@ saving the current progress. It is therefore important that the player saves the
 local game session.
 ```
 #### User stories:
-```
-User story: playerLogin  
+# User stories and use cases
 
+#### User stories:
+```
+Use story: player login  
 As a player, I want the ability to access my own account so I can access my own previous progress.  
 So that I won't have to start over again everytime I play.
 ```
 ```
-User story: playerLogout:  
-
-As a player, I want the option to log out.  
-So that my play session is not altered when I'm not present.
+save game:  
+As a player, I want to be able to save my current session,  
+so I may go back to it at another time and continue where I left off. 
 ```
 ```
-User story: saveGame:  
-
-As a player, I want to be able to save my current session.  
-So I may go back to it at another time and continue where I left off.
+move player:
+As a player, I want to be able to move my character around in dungeons,  
+so that I can explore them.
 ```
 ```
-User story: loadGame:  
-
-As a player, I want the option of loading a saved game.  
-So I may continue where I left off in a previous session.
-```
-```
-User story: movePlayer:
-
-As a player, I want to be able to move my character around in dungeons.  
-So that I can explore them.
-```
-```
-User story: playerAttack:
-
-As a player, I want to be able to attack whatever is before me.
+player attack:
+As a player, I want to be able to attack whatever is before me. 
 Be it enemy or object. So I can decimate any foe in my path.
 ```
 ```
-User story: pickupItem:
-
-As a player, I want the ability to pick up items which are scattered around the dungeon.
-So I can change my current loadout and attributes.
+pickup item:
+As a player, I want the ability to pick up items which are scattered around the dungeon. 
+So I can change my current loadout and attributes. 
 ```
 ```
-User story: customisePlayer:
-
-As a player, I want the abilty to change the apperance of my personal character.
+customise player:
+As a player, I want the abilty to change the apperance of my personal character. 
 So that I may stand out in the crowd.
 ```
 ```
-User story: generateDungeonWithTwitter:
-
-As a player, I want to be able to randomly generate a dungeon using keywords selected from a certain twitter feed,  
-as an interesting way of creating levels.
+new world:
+As a player, I want to be able to randomly generate a dungeon using both keywords selected from a certain twitter feed and using a set offline-available algorithm, so that I have a world to move in.
 ```
 ```
-User story: generateDungeonWithoutTwitter:
-
-As a player, I want an option to generate a new game session when there is no internet connection,  
-using a set offline-available algorithm.
-```
-```
-User story: throwItem:
-
+throw item:
 As a player, I want the option to throw something within my inventory,  
-as either an offensive action or as a means to discard something from my inventory.
+as either an offensive action or as a means to discard something from my inventory. 
 ```
 ```
-User story: connectToMultiplayerSession:  
-
-As a player, I want the option of connecting to an online session,
-so that I may play along and communicate with other players.
+multiplayer session:  
+As a player, I want the option of connecting to an online session, 
+so that I may play along and communicate with other players. 
 ```
 ```
-User story: chatWithOtherPlayers:
-
+chatWithOther players:
 As a player, I want the ability to communicate other players in my online game session through text in a chatroom,  
 so that we may strategize and socialize.
 ```
+
 
 #### Estimated velocity per iteration
 25 points/week average
