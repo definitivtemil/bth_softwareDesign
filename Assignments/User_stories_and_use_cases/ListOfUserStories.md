@@ -142,7 +142,7 @@ As a player, I want the option of connecting to an online session,
 so that I may play along and communicate with other players. 
 ```
 ```
-chatWithOther players:
+chat with other players:
 As a player, I want the ability to communicate other players in my online game session through text in a chatroom,  
 so that we may strategize and socialize.
 ```
