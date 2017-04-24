@@ -18,5 +18,14 @@ The assignment shall contain the following:
 3. Use cases list [x]
 
 ## Project 2; User Stories and Use Cases
+1. Fix []
+
 ## Project 3; Object Oriented Design
+Create diagrams that show the relations within the system. 
+
+1. System Sequence Diagram []
+2. Interaction Diagram []
+
 ## Project 4; Implementation and Testing
+
+// Make sure the diagrams is up to date with the code you have written (The teacher will probably check to see if this is done correctly).
