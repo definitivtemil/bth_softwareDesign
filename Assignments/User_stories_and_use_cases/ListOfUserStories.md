@@ -122,16 +122,17 @@ Conditions of satisfaction:
 #### User stories:
 ```
 player login: 
-As a player, I want the ability to access my own account so I can access my own previous progress.  
-So that I won't have to start over again every time I play.
+As a player, I want the ability to log on to my account so I can access my previously saved progress,
+so that I won't have to start over again every time I play.
 Conditions of satisfaction:
- - 
+ - Players credentials are accepted
+ - Saved games of the player is displayed
 ```
 ```
 player logout:
 As a player, I want the ability to log out of my account so nobody else can play on it or tamper with my progress without my permission.
 Conditions of satisfaction:
- - 
+ - Player is logged out and back to log in screen
 ```
 ```
 save game:  
@@ -145,55 +146,55 @@ move player:
 As a player, I want to be able to move my character around in dungeons,  
 so that I can explore them.
 Conditions of satisfaction:
- - 
+ - Player can move
 ```
 ```
 player attack:
 As a player, I want to be able to attack whatever is before me. 
 Be it enemy or object. So I can decimate any foe in my path.
 Conditions of satisfaction:
- - 
+ - Player can attack
 ```
 ```
 pickup item:
 As a player, I want the ability to pick up items which are scattered around the dungeon. 
 So I can change my current loadout and attributes.
 Conditions of satisfaction:
- - 
+ - Player can pick up items
 ```
 ```
 customise player:
 As a player, I want the ability to change the appearance of my personal character. 
 So that I may stand out in the crowd.
 Conditions of satisfaction:
- - 
+ - Player can choose an icon to represent them
 ```
 ```
 new world:
 As a player, I want to be able to randomly generate a dungeon using both keywords selected from a certain twitter feed and using a set offline-available algorithm, so that I have a world to move in.
 Conditions of satisfaction:
- - 
+ - Player can create a new game.
 ```
 ```
 throw item:
 As a player, I want the option to throw something within my inventory,  
 as either an offensive action or as a means to discard something from my inventory. 
 Conditions of satisfaction:
- - 
+ - Player can throw away an item
 ```
 ```
 multiplayer session:  
 As a player, I want the option of connecting to an online session, 
 so that I may play along and communicate with other players.
 Conditions of satisfaction:
- - 
+ - Player connects to a game on the server
 ```
 ```
 chat with other players:
 As a player, I want the ability to communicate other players in my online game session through text in a chatroom,  
 so that we may strategize and socialize.
 Conditions of satisfaction:
- - 
+ - Player can type messages and have it seen by all on the same sever
 ```
 
 
