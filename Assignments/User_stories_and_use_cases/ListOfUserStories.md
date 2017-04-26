@@ -7,18 +7,18 @@
 ### Authors:
 Name                    | Social Security Number | Thinking | Writing |
 ------------------------|------------------------|----------|---------|
-Axel Gehlin Björnberg   |  x	                    | 20%      | 50%     |
+Axel Gehlin Björnberg   |  x	                   | 20%      | 50%     |
 Carl Sandnes            |  x                     | 20%      | 20%     |
 Emil Nero               |  x                     | 20%      | 30%     |
-Shaghayegh Pourmahdi    |  x	                    | 20%      | 00%     |
-Peter Eriksson          |  x	                    | 20%      | 00%     |
+Shaghayegh Pourmahdi    |  x	                   | 20%      | 00%     |
+Peter Eriksson          |  x	                   | 20%      | 00%     |
 
 
 
 ### Actor description:  
 **Server**:  
-The server is the physical computer wich people connect to in order to use multiplayer function and access the chat function.
-It also holds the savegames for multiplayer sessions.
+The server is the physical computer which people connect to in order to use multiplayer function and access the chat function.
+It also holds saved games for multiplayer sessions.
 
 **System**:  
 The system refers to the code being run in the background that handles and responds to the player inputs.
@@ -37,7 +37,7 @@ The system shall also handle communication with others through the server which 
 
 ### High-level Epics:
 **Motivation**:  
-We prioritised in the current order beacuse we deemed it important that the ones
+We prioritised in the current order because we deemed it important that the ones
 on top works before the ones under. This is because some depend on other parts of the system to work properly.
 Without the correct parts of the system working, the parts which depend upon previous parts, will not be functional.
 Therefore, we have chosen to prioritise the parts which other parts of the system relies upon.
@@ -46,52 +46,76 @@ Therefore, we have chosen to prioritise the parts which other parts of the syste
 ```
 Epic: Accessing game sessions
 
+
 Actors:
+Player, System
 
 Description:
-When the player starts the game, a login screen pops up and requires the player to input his/her credentials.
-The system then checks these credentials and allows the player access to the players previous game sessions
-and the ability to create new ones. If the player choses a previously played game session, the player will
-have the abilty to decide the apperance of the character the player will control during the game session.  
+As a player I want to, upon game start-up and logging in, have the option to choose between my previously saved games, or to start a new one, as well as customising my character before playing. 
+
+Conditions of satisfaction:
+-	Player is logged in
+-	Player has chosen their own appearance
+-	A previous game is loaded into or a new one created.
+
 ```
 ```
 Epic: Generate dungeon
 
+Actors:
+Player, System
+
 Description:  
-If the player decides to make a new game session and there's an internet connecttion, the player will have the
-option to generate a dungeon based on gathered information from a specific twitter feed. When the player has chosen
-a twitter feed, the system will gather data through the twitter API and use the gathered data to base the dungeon
-generation on.  
-If there is no internet connection available, the system will generate its own data to base the dungeon generation on.  
+As a player I want to be able to generate a new game session using keywords from a twitter feed of my choice, as long as I have an internet connection whilst doing so, as an interesting way to generate a dungeon layout.
+Otherwise generate a random dungeon from a pre existing offline-available algorithm, so that an internet connection is not required to play.
+
+Conditions of satisfaction:
+-	A new dungeon layout is generated
+-	Player entered the game
+
 ```
 ```
 Epics: Accessing online game sessions
 
-Desciption:
-The system gives the player the option to connect to a server which hostes a game session for multiple players.
-In this session, the multiple players are able to see, communicate, and interact with eachother. When the player
-decides to join an online session, the player is asked to provide the address to the server, after which, the system
-connects to the server and allows the player to play with other players and communicate with them.
+Actors:
+Player, System
+
+Description:
+As a player I want to be able to play online, connecting either randomly or by entering a server address, so that I can play and communicate alongside others.
+
+Conditions of satisfaction:
+-	The player is connected to and playing on a server.
+
 ```
 ```
 Epic: Playing the game
 
+Actors:
+Player, System
+
 Description:
-When the player has chosen what game session to join. He/she will be put into a generated dungeon with enemies
-to kill and loot to gather. While in the game session, the player shall be
-able to move, attack and interact with items freely. When in the multiplayer session, the player will be able
-to interact with otehr players as well.  
+As a player I want to be able to move around, attack enemies, pick up and use items, and if online, write to my fellow players in my game session, so that I am provided an interactive experience.
+
+Conditions of satisfaction:
+-	Player can move
+-	Player can attack
+-	Player can loot
+-	Player can use items
+-	Player can type and send messages
 ```
 ```
 Epic: Quit the game
 
+Actors:
+Player, System
+
 Description:
-Whenever the player decides to end the game session and the player is connected to an online session, the
-player quits by pressing the disconnect button. The server saves the current progress of the player as the
-players system quits.  
-When the player decides to quit a local game, the system will end the game session and quit it self without
-saving the current progress. It is therefore important that the player saves the progress before ending the
-local game session.
+As a player, I want the option to save my game manually as I am quitting my current game session, so that I may resume playing the same session later. Alternatively if I am playing online, the server automatically saves if all players has hit the disconnect button and quit the session.
+
+Conditions of satisfaction:
+-	Players game is saved locally if offline
+-	Players game is saved on server if online
+-	Player is logged out
 ```
 #### User stories:
 # User stories and use cases
@@ -100,7 +124,7 @@ local game session.
 ```
 Use story: player login  
 As a player, I want the ability to access my own account so I can access my own previous progress.  
-So that I won't have to start over again everytime I play.
+So that I won't have to start over again every time I play.
 ```
 ```
 save game:  
@@ -124,7 +148,7 @@ So I can change my current loadout and attributes.
 ```
 ```
 customise player:
-As a player, I want the abilty to change the apperance of my personal character. 
+As a player, I want the ability to change the appearance of my personal character. 
 So that I may stand out in the crowd.
 ```
 ```
