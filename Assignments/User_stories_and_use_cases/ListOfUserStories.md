@@ -122,9 +122,13 @@ Conditions of satisfaction:
 
 #### User stories:
 ```
-Use story: player login  
+player login: 
 As a player, I want the ability to access my own account so I can access my own previous progress.  
 So that I won't have to start over again every time I play.
+```
+```
+player logout:
+As a player, I want the ability to log out of my account so nobody else can play on it or tamper with my progress without my permission.
 ```
 ```
 save game:  
