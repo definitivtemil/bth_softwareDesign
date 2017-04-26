@@ -22,3 +22,14 @@ deactivate database
 
 
 ```
+## Player Logout
+```@plantuml
+activate systemhandler
+-->systemhandler: pressesLogoutButton()
+activate database
+systemhandler --> database: saveGame()
+deactivate database
+<-- systemhandler: goodbyeMessage()
+
+
+```
