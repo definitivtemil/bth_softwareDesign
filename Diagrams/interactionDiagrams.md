@@ -152,6 +152,3 @@ selfUpdatingWindow --> selfUpdatingWindow:updates representation of  current ses
 
 
 ``` 
-
-
-
