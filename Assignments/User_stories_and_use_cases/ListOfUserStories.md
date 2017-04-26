@@ -7,11 +7,11 @@
 ### Authors:
 Name                    | Social Security Number | Thinking | Writing |
 ------------------------|------------------------|----------|---------|
-Axel Gehlin Björnberg   |  x	                   | 20%      | 50%     |
+Axel Gehlin Björnberg   |  x	                    | 20%      | 50%     |
 Carl Sandnes            |  x                     | 20%      | 20%     |
 Emil Nero               |  x                     | 20%      | 30%     |
-Shaghayegh Pourmahdi    |  x	                   | 20%      | 00%     |
-Peter Eriksson          |  x	                   | 20%      | 00%     |
+Shaghayegh Pourmahdi    |  x	                    | 20%      | 00%     |
+Peter Eriksson          |  x	                    | 20%      | 00%     |
 
 
 
