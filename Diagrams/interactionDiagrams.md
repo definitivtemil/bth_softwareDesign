@@ -33,3 +33,14 @@ deactivate database
 
 
 ```
+## Pick Up Item
+```@plantuml
+activate characterHandler
+activate character
+-->characterHandler: walks over item
+
+characterHandler-->character:additem(item)
+character-->characterHandler: updateInfo(info)
+deactivate character
+<--characterHandler:displayUpdatedInfo()
+```
